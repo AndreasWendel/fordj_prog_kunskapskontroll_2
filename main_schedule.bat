@@ -1,0 +1,1 @@
+C:\Users\serig\Documents\GitHub\fordj_prog_kunskapskontroll_2\.venv\Scripts\python.exe C:\Users\serig\Documents\GitHub\fordj_prog_kunskapskontroll_2\main.py

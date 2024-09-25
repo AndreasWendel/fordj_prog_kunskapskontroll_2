@@ -1,0 +1,1129 @@
+[2024-09-16 18:32][DEBUG] Starting new HTTPS connection (1): www.wikitable2json.com:443
+[2024-09-16 18:32][DEBUG] https://www.wikitable2json.com:443 "GET /api/List_of_S%26P_500_companies?table=0 HTTP/11" 200 None
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/MMM
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/MMM
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'MMM'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] ('CREATE TABLE IF NOT EXISTS "_cookieschema" ("strategy" VARCHAR(255) NOT NULL PRIMARY KEY, "fetch_date" DATETIME NOT NULL, "cookie_bytes" BLOB NOT NULL) WITHOUT ROWID', [])
+[2024-09-16 18:32][DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['basic', 1, 0])
+[2024-09-16 18:32][DEBUG] loaded persistent cookie
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+[2024-09-16 18:32][DEBUG] https://query1.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/11" 200 11
+[2024-09-16 18:32][DEBUG] crumb = 'ugpLlgJDPHa'
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] Starting new HTTPS connection (1): query2.finance.yahoo.com:443
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/MMM?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=MMM&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AOS
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AOS
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AOS'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AOS?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AOS&crumb=ugpLlgJDPHa HTTP/11" 200 378
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ABT
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ABT
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ABT'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ABT?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ABT&crumb=ugpLlgJDPHa HTTP/11" 200 383
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ABBV
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ABBV
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ABBV'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ABBV?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ABBV&crumb=ugpLlgJDPHa HTTP/11" 200 383
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ACN
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ACN
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ACN'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ACN?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ACN&crumb=ugpLlgJDPHa HTTP/11" 200 374
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADBE
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADBE
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ADBE'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ADBE?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ADBE&crumb=ugpLlgJDPHa HTTP/11" 200 354
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMD
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMD
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMD'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMD?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMD&crumb=ugpLlgJDPHa HTTP/11" 200 354
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AES
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AES
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AES'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AES?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AES&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AFL
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AFL
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AFL'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AFL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AFL&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/A
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/A
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'A'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/A?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=A&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/APD
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/APD
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'APD'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/APD?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=APD&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ABNB
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ABNB
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ABNB'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ABNB?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ABNB&crumb=ugpLlgJDPHa HTTP/11" 200 327
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AKAM
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AKAM
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AKAM'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AKAM?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AKAM&crumb=ugpLlgJDPHa HTTP/11" 200 325
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALB
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALB
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ALB'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ALB?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ALB&crumb=ugpLlgJDPHa HTTP/11" 200 383
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ARE
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ARE
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ARE'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ARE?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ARE&crumb=ugpLlgJDPHa HTTP/11" 200 368
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALGN
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALGN
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ALGN'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ALGN?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ALGN&crumb=ugpLlgJDPHa HTTP/11" 200 323
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALLE
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALLE
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ALLE'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ALLE?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ALLE&crumb=ugpLlgJDPHa HTTP/11" 200 377
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/LNT
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/LNT
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'LNT'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/LNT?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=LNT&crumb=ugpLlgJDPHa HTTP/11" 200 378
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALL
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ALL
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ALL'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ALL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ALL&crumb=ugpLlgJDPHa HTTP/11" 200 373
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOGL
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOGL
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'GOOGL'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/GOOGL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=GOOGL&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOG
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/GOOG
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'GOOG'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/GOOG?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=GOOG&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:32][DEBUG] response code=200
+[2024-09-16 18:32][DEBUG] Exiting get()
+[2024-09-16 18:32][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/MO
+[2024-09-16 18:32][DEBUG] Entering get()
+[2024-09-16 18:32][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/MO
+[2024-09-16 18:32][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'MO'}
+[2024-09-16 18:32][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:32][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:32][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG] reusing cookie
+[2024-09-16 18:32][DEBUG] reusing crumb
+[2024-09-16 18:32][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:32][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/MO?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=MO&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMZN
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMZN
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMZN'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMZN?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMZN&crumb=ugpLlgJDPHa HTTP/11" 200 333
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMCR
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMCR
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMCR'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMCR?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMCR&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AEE
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AEE
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AEE'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AEE?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AEE&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAL
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAL
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AAL'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AAL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AAL&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AEP
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AEP
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AEP'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AEP?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AEP&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AXP
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AXP
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AXP'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AXP?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AXP&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AIG
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AIG
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AIG'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AIG?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AIG&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMT
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMT
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMT'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMT?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMT&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AWK
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AWK
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AWK'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AWK?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AWK&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMP
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMP
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMP'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMP?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMP&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AME
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AME
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AME'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AME?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AME&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMGN
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMGN
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMGN'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMGN?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMGN&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/APH
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/APH
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'APH'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/APH?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=APH&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADI
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADI
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ADI'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ADI?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ADI&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ANSS
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ANSS
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ANSS'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ANSS?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ANSS&crumb=ugpLlgJDPHa HTTP/11" 200 313
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AON
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AON
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AON'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AON?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AON&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/APA
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/APA
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'APA'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/APA?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=APA&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AAPL
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AAPL'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AAPL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AAPL&crumb=ugpLlgJDPHa HTTP/11" 200 383
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AMAT
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AMAT'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AMAT?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AMAT&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/APTV
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/APTV
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'APTV'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/APTV?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=APTV&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ACGL
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ACGL
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ACGL'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ACGL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ACGL&crumb=ugpLlgJDPHa HTTP/11" 200 327
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADM
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADM
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ADM'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ADM?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ADM&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ANET
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ANET
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ANET'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ANET?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ANET&crumb=ugpLlgJDPHa HTTP/11" 200 326
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AJG
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AJG
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AJG'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AJG?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AJG&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AIZ
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AIZ
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AIZ'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AIZ?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AIZ&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/T
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/T
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'T'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/T?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=T&crumb=ugpLlgJDPHa HTTP/11" 200 374
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ATO
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ATO
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ATO'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ATO?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ATO&crumb=ugpLlgJDPHa HTTP/11" 200 377
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADSK
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADSK
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ADSK'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ADSK?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ADSK&crumb=ugpLlgJDPHa HTTP/11" 200 345
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADP
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/ADP
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'ADP'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/ADP?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=ADP&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AZO
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AZO
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AZO'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AZO?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AZO&crumb=ugpLlgJDPHa HTTP/11" 200 320
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AVB
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AVB
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AVB'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AVB?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AVB&crumb=ugpLlgJDPHa HTTP/11" 200 378
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AVY
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AVY
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AVY'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AVY?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AVY&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AXON
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AXON
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AXON'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AXON?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AXON&crumb=ugpLlgJDPHa HTTP/11" 200 324
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BKR
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BKR
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BKR'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BKR?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BKR&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BALL
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BALL
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BALL'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BALL?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BALL&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BAC
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BAC
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BAC'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BAC?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BAC&crumb=ugpLlgJDPHa HTTP/11" 200 373
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BK
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BK
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BK'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BK?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BK&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BBWI
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BBWI
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BBWI'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BBWI?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BBWI&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BAX
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BAX
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BAX'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BAX?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BAX&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BDX
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BDX
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BDX'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BDX?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BDX&crumb=ugpLlgJDPHa HTTP/11" 200 371
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BRK.B
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BRK.B
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BRK.B'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BRK.B?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BRK.B&crumb=ugpLlgJDPHa HTTP/11" 200 127
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][WARNING] No earnings date was found for BRK.B, Date is set as None
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BBY
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BBY
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BBY'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BBY?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BBY&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BIO
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BIO
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BIO'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BIO?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BIO&crumb=ugpLlgJDPHa HTTP/11" 200 324
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/TECH
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/TECH
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'TECH'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/TECH?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=TECH&crumb=ugpLlgJDPHa HTTP/11" 200 378
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BIIB
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BIIB
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BIIB'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BIIB?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BIIB&crumb=ugpLlgJDPHa HTTP/11" 200 327
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BLK
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BLK
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BLK'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BLK?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BLK&crumb=ugpLlgJDPHa HTTP/11" 200 383
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BX
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BX
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BX'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BX?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BX&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BA
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BA
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BA'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BA?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BA&crumb=ugpLlgJDPHa HTTP/11" 200 385
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BKNG
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BKNG
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BKNG'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BKNG?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BKNG&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BWA
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BWA
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BWA'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BWA?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BWA&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BSX
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BSX
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BSX'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BSX?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BSX&crumb=ugpLlgJDPHa HTTP/11" 200 327
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BMY
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BMY
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BMY'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BMY?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BMY&crumb=ugpLlgJDPHa HTTP/11" 200 373
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/AVGO
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/AVGO
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'AVGO'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/AVGO?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=AVGO&crumb=ugpLlgJDPHa HTTP/11" 200 384
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BR
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BR
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BR'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BR?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BR&crumb=ugpLlgJDPHa HTTP/11" 200 380
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BRO
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BRO
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BRO'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BRO?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BRO&crumb=ugpLlgJDPHa HTTP/11" 200 381
+[2024-09-16 18:33][DEBUG] response code=200
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][DEBUG] get_raw_json(): https://query2.finance.yahoo.com/v10/finance/quoteSummary/BF.B
+[2024-09-16 18:33][DEBUG] Entering get()
+[2024-09-16 18:33][DEBUG] url=https://query2.finance.yahoo.com/v10/finance/quoteSummary/BF.B
+[2024-09-16 18:33][DEBUG] params={'modules': 'calendarEvents', 'corsDomain': 'finance.yahoo.com', 'formatted': 'false', 'symbol': 'BF.B'}
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'basic'
+[2024-09-16 18:33][DEBUG]   Entering _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG] reusing cookie
+[2024-09-16 18:33][DEBUG] reusing crumb
+[2024-09-16 18:33][DEBUG]   Exiting _get_cookie_and_crumb_basic()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BF.B?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BF.B&crumb=ugpLlgJDPHa HTTP/11" 404 147
+[2024-09-16 18:33][DEBUG] response code=404
+[2024-09-16 18:33][DEBUG] toggling cookie strategy basic -> csrf
+[2024-09-16 18:33][DEBUG]  Entering _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] cookie_mode = 'csrf'
+[2024-09-16 18:33][DEBUG]   Entering _get_crumb_csrf()
+[2024-09-16 18:33][DEBUG] ('SELECT "t1"."strategy", "t1"."fetch_date", "t1"."cookie_bytes" FROM "_cookieschema" AS "t1" WHERE ("t1"."strategy" = ?) LIMIT ? OFFSET ?', ['csrf', 1, 0])
+[2024-09-16 18:33][DEBUG] Starting new HTTPS connection (1): guce.yahoo.com:443
+[2024-09-16 18:33][DEBUG] https://guce.yahoo.com:443 "GET /consent HTTP/11" 302 0
+[2024-09-16 18:33][DEBUG] Starting new HTTPS connection (1): consent.yahoo.com:443
+[2024-09-16 18:33][DEBUG] https://consent.yahoo.com:443 "GET /v2/collectConsent?sessionId=3_cc-session_8ff4f12f-b412-4c25-bc2c-e4809d975c0a HTTP/11" 200 None
+[2024-09-16 18:33][DEBUG] Encoding detection: utf_8 is most likely the one.
+[2024-09-16 18:33][DEBUG] csrfToken = MIEP5XLEX1el1r7mrGY52KZmV9TCJwMi
+[2024-09-16 18:33][DEBUG] sessionId='3_cc-session_8ff4f12f-b412-4c25-bc2c-e4809d975c0a
+[2024-09-16 18:33][DEBUG] https://consent.yahoo.com:443 "POST /v2/collectConsent?sessionId=3_cc-session_8ff4f12f-b412-4c25-bc2c-e4809d975c0a HTTP/11" 302 0
+[2024-09-16 18:33][DEBUG] https://guce.yahoo.com:443 "GET /copyConsent?sessionId=3_cc-session_8ff4f12f-b412-4c25-bc2c-e4809d975c0a&lang=sv-SE HTTP/11" 302 0
+[2024-09-16 18:33][DEBUG] Starting new HTTPS connection (1): www.yahoo.com:443
+[2024-09-16 18:33][DEBUG] https://www.yahoo.com:443 "GET /?guccounter=1 HTTP/11" 200 None
+[2024-09-16 18:33][DEBUG] https://guce.yahoo.com:443 "GET /copyConsent?sessionId=3_cc-session_8ff4f12f-b412-4c25-bc2c-e4809d975c0a HTTP/11" 302 0
+[2024-09-16 18:33][DEBUG] https://www.yahoo.com:443 "GET /?guccounter=1 HTTP/11" 200 None
+[2024-09-16 18:33][DEBUG] ('DELETE FROM "_cookieschema" WHERE ("_cookieschema"."strategy" = ?)', ['csrf'])
+[2024-09-16 18:33][DEBUG] ('BEGIN', None)
+[2024-09-16 18:33][DEBUG] ('INSERT INTO "_cookieschema" ("strategy", "fetch_date", "cookie_bytes") VALUES (?, ?, ?)', ['csrf', '2024-09-16T18:33:08.680933', <memory at 0x000001ECE2FE7940>])
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v1/test/getcrumb HTTP/11" 200 11
+[2024-09-16 18:33][DEBUG] crumb = 'EZUTaL37hpY'
+[2024-09-16 18:33][DEBUG]   Exiting _get_crumb_csrf()
+[2024-09-16 18:33][DEBUG]  Exiting _get_cookie_and_crumb()
+[2024-09-16 18:33][DEBUG] https://query2.finance.yahoo.com:443 "GET /v10/finance/quoteSummary/BF.B?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BF.B&crumb=EZUTaL37hpY HTTP/11" 404 147
+[2024-09-16 18:33][DEBUG] response code=404
+[2024-09-16 18:33][DEBUG] Exiting get()
+[2024-09-16 18:33][ERROR] 404 Client Error: Not Found for url: https://query2.finance.yahoo.com/v10/finance/quoteSummary/BF.B?modules=calendarEvents&corsDomain=finance.yahoo.com&formatted=false&symbol=BF.B&crumb=EZUTaL37hpY
