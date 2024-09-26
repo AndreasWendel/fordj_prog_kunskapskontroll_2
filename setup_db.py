@@ -20,6 +20,9 @@ path = "kunskapskontroll_2/"
 
 sp500 = pd.read_csv(path+"data.csv")
 
+sp500["Need update"] = 0
+
+
 conn = sqlite3.connect(path+"Stock Database.db")
 #note database will be created if not found/existing
 
