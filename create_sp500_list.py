@@ -1,6 +1,6 @@
 import sp500_list_getter
 
-sp500 = sp500_list_getter.Get_sp500_list()
+sp500 = sp500_list_getter.GetSp500List()
 sp500.request_to_pd()
 sp500.get_earnings_date()
 sp500_df = sp500.get_df()

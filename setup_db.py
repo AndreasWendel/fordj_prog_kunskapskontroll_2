@@ -4,7 +4,7 @@ import pandas as pd
 
 
 """
-sp500 = sp500_list_getter.Get_sp500_list()
+sp500 = sp500_list_getter.GetSp500List()
 sp500.request_to_pd()
 sp500.get_earnings_date()
 sp500_df = sp500.get_df()
@@ -25,8 +25,8 @@ conn = sqlite3.connect(path+"Stock Database.db")
 
 sp500.to_sql("SP500", conn, if_exists="replace")
 
-conn.close
+conn.close()
 
 df = pd.read_sql_query('SELECT * FROM SP500', conn)
 
-conn.close
+conn.close()

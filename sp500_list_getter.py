@@ -19,7 +19,7 @@ Man får självklart läsa igenom koden. eventuella egna kommentarer finns
 """
 
 
-class Get_sp500_list:
+class GetSp500List:
     def __init__(self) -> None:
         self.url = ("https://www.wikitable2json.com/api/List_of_S%26P_500_companies?table=0")
         
