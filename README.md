@@ -1,2 +1,2 @@
-# fordj_prog_kunskapskontroll_2
- fördjupad python prog kunskapskontroll 2
+# Sp500 Stock income statement updater
+ Made for fördjupad python programmerings kurs, kunskapskontroll 2
