@@ -176,13 +176,18 @@ class DBAccess():
             df_time = dt.datetime.strptime(df["index"].iloc[-1], '%Y-%m-%d %H:%M:%S')
             if list_time == df_time:
                 print(symbol +" Already up to date")
-                logging.warning("Table already up to date, should not happen check api or yahoo finance")
+                logging.warning(symbol+" Table already up to date, should not happen check api or yahoo finance")
                 failed_update.append(symbol)
             else:
-                df_insert = list_of_df[i].tail(1)
-                df_insert.to_sql(symbol, self.conn, if_exists="append")
-                #if_exists="append" insert the dataframe into an existing table instead of creating/replacing
-                logging.info(symbol + " has been updated")
+                try:
+                    df_insert = list_of_df[i].tail(1)
+                    df_insert.to_sql(symbol, self.conn, if_exists="append")
+                    #if_exists="append" insert the dataframe into an existing table instead of creating/replacing
+                    logging.info(symbol + " has been updated")
+                except sqlite3.Error as e:
+                    logger.exception(e)
+                    print(e)
+                    
         return failed_update    
     
     
